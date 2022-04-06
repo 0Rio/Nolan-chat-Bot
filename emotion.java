@@ -26,15 +26,17 @@ public class emotion {
      int emotic = (rand.nextInt(4));
     
 
-    if (emotic == 1){
-        angry= false;
+    if (emotic == 1)
+    {
+     angry= false;
      sad= false;
      happy=false;
      neutral = true;
     }
 
-    else if(emotic ==2){
-        angry= false;
+    else if(emotic ==2)
+    {
+     angry= false;
      sad= true;
      happy=false;
      neutral = false;
@@ -48,8 +50,9 @@ else if(emotic==3){
 }
     
 
-else if(emotic ==4){
-    angry= true;
+else if(emotic ==4)
+{
+     angry= true;
      sad= false;
      happy=false;
      neutral = false;
